@@ -1,25 +1,43 @@
+<!-- Semua dokumen HTML harus diawali dengan deklarasi <!DOCTYPE>. Deklarasi tersebut bukan tag HTML.
+  Deklarasi tersebut merupakan "informasi" bagi browser tentang jenis dokumen yang diharapkan. -->
 <!DOCTYPE html>
+<!-- Atribut lang menentukan bahasa konten elemen.. -->
 <html lang="en">
+<!-- Elemen <head> adalah wadah untuk metadata (data tentang data)
+     dan ditempatkan di antara tag <html> dan tag <body>. -->
 <head>
+    <!-- Atribut charset menentukan penyandian karakter untuk dokumen HTML. -->
     <meta charset="UTF-8">
+    <!-- Metadata adalah data (informasi) tentang data.  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Your Name</title>
-    <link rel="stylesheet" href="style.css">
+    <!--  Tag <title> mendefinisikan judul dokumen. -->
+    <title>CV - Your </title>
+    <!-- Definisi dan Penggunaan Atribut rel yang diperlukan menentukan
+      hubungan antara dokumen saat ini dan dokumen yang ditautkan -->
+    <link rel="stylesheet" href="style.css" >
 </head>
-<body>
-    <div class="container">
+<!-- Elemen <body> memuat semua konten dokumen HTML, 
+    seperti judul, paragraf, gambar, hyperlink, tabel, daftar, dan lain-lain. -->
+<body class="body">
+    <!-- Tag <div> digunakan sebagai wadah untuk elemen HTML -
+         yang kemudian diberi gaya dengan CSS atau dimanipulasi dengan JavaScript. -->
+    <div class="kelas">
         <div class="header">
+            <!--  <h1> menentukan judul yang paling penting.-->
             <h1>Hega Galang P</h1>
+            <!-- Tag <p> mendefinisikan sebuah paragraf. -->
             <p>Software Engineering</p>
         </div>
 
         <div class="section">
             <h2>Kontak</h2>
+            <!-- Tag <br> berguna untuk menulis alamat atau puisi. -->
             <br>
-                <li>Email: abcdefgh@gmail.com<br></li>
-            <li> Phone: +1234567890<br></li>
+            <!-- Tag <li> digunakan di dalam daftar berurut -->
+                <b><li>Email: abcdefgh@gmail.com<br></li></b>
+            <li> Phone: +123456789<br></li>
                <li>LinkedIn: linkedin.com/yourname<br></li>
-               <li>GitHub: github.com/yourname</p></li>
+               <li>GitHub: github.com/yourname</li>
             
         </div>
 
@@ -33,7 +51,7 @@
 
         <div class="section">
             <h2>hobi</h2>
-            
+            <!-- (<ol>), daftar tak berurut -->
             <ol>
                 <li>mancing </li>
                 <li>main motor</li>

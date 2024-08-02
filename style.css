@@ -6,34 +6,39 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
     line-height: 1.6;
     background-color: #f2f2f2;
     padding: 20px;
 }
 
-.container {
+.kelas {
+    /* color:wheat; */
     max-width: 800px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color:rgb(17, 222, 236);
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3%;
+    box-shadow: 0 0 100px rgba(219, 202, 202, 0.1);
 }
 
-header {
+.header {
     text-align: center;
     margin-bottom: 20px;
+    
 }
 
-header h1 {
+.header h1 {
     font-size: 2.5em;
+    
     margin-bottom: 10px;
 }
 
-header p {
+.header p {
     font-size: 1.2em;
-    color: #666;
+    color: #f0f0eb;
+    
+    
 }
 
 section {
@@ -42,6 +47,7 @@ section {
 
 h2 {
     font-size: 1.8em;
+
     border-bottom: 2px solid #333;
     padding-bottom: 5px;
     margin-bottom: 15px;
